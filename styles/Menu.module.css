@@ -29,10 +29,43 @@
 	background-position: left center;
 	padding-left: 30px;
 	margin-top: 0;
-	height: 50px;
+	height: 30px;
 	vertical-align: top;
 }
 
 .navContainer img {
 	margin-right: 1rem;
+}
+
+.navIconsMiddle {
+	display: flex;
+	width: 35%;
+	justify-content: space-between;
+}
+
+.navIconsRight {
+	display: flex;
+	width: 15%;
+	justify-content: space-between;
+	position: relative;
+}
+
+/* .navIconsRight a {
+	background-color: lightgray;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+
+.greyBackgroundIcons {
+	background-color: lightgray;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
