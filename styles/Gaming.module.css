@@ -1,3 +1,28 @@
 .contentBody {
 	display: flex;
 }
+
+.smallGameCard {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	object-fit: cover;
+}
+.smallGameCard h4 {
+	margin: 0;
+}
+
+.smallGameCard p {
+	padding: 0.5rem;
+	background-color: rgb(38, 37, 37);
+	border-radius: 25px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.gameCardDetails {
+	background-color: lightgray;
+	color: white;
+	z-index: 1;
+	padding: 0.5rem;
+}

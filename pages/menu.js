@@ -25,7 +25,7 @@ function Menu() {
 				<Link href="/">
 					<BsPeople size={30} color="black" />
 				</Link>
-				<Link href="/">
+				<Link href="/gaming">
 					<FaGamepad size={30} color="black" />
 				</Link>
 			</div>
