@@ -1,8 +1,9 @@
 .navContainer {
 	display: flex;
-	width: 100%;
+	width: 100vw;
 	padding: 1rem;
 	justify-content: space-between;
+	max-width: 100%;
 }
 .navContainerItem {
 	color: black;
@@ -48,6 +49,7 @@
 	width: 15%;
 	justify-content: space-between;
 	position: relative;
+	margin-right: 2rem;
 }
 
 /* .navIconsRight a {
