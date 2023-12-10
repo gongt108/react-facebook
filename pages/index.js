@@ -5,6 +5,9 @@ import Image from 'next/image';
 import RandomUpdates from './random-updates';
 import Menu from './menu';
 import NewsFeed from './newsfeed';
+import Sidebar from './sidebar';
+
+import { CgMenuGridO, CgProfile } from 'react-icons/cg';
 
 export default function Home() {
 	// exporting the function Home
@@ -17,9 +20,27 @@ export default function Home() {
 			<div className={styles.navContainer}>
 				<Menu />
 			</div>
-			<main>
+			<div className={styles.mainContainer}>
+				<Sidebar />
 				<div className={styles.container}>
 					<div className={styles.grid}>
+						<div className={styles.statusContainer}>
+							<div className={styles.statusInput}>
+								<CgProfile size={30} color="black" />
+								<input type="text" placeholder="What's on your mind?" />
+							</div>
+							<div className={styles.statusLinks}>
+								<div>
+									<p>Live video</p>
+								</div>
+								<div>
+									<p>Photo/video</p>
+								</div>
+								<div>
+									<p>Feeling/activity</p>
+								</div>
+							</div>
+						</div>
 						<div className={styles.newsfeed}>
 							<h2>NewsFeed </h2>
 							<NewsFeed />
@@ -31,7 +52,7 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-			</main>
+			</div>
 
 			<footer>
 				<a

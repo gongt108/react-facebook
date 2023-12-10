@@ -88,3 +88,33 @@
 	border-top: lightgray solid 1px;
 	margin-top: 1rem;
 }
+
+.accountsCenter {
+	color: slate;
+	border: grey solid 1px;
+	border-radius: 15px;
+	padding: 1rem;
+}
+
+.accountsCenter h4 {
+	margin: 0;
+}
+
+.accountsCenter h6,
+.accountsCenter h5 {
+	margin: 0;
+	margin-left: 0.5rem;
+}
+
+.accountsCenter a {
+	text-decoration: none;
+}
+
+.accountsCenter p {
+	margin: 0;
+	font-size: 12px;
+}
+
+.sideBarListItem p {
+	margin-left: 0.5rem;
+}

@@ -1,18 +1,6 @@
 import React from 'react';
 import Menu from '../menu';
-import {
-	FaGear,
-	FaGamepad,
-	FaBell,
-	FaBookmark,
-	FaChess,
-} from 'react-icons/fa6';
-import { IoGameController } from 'react-icons/io5';
-import { GiCardAceSpades, GiRollingDices } from 'react-icons/gi';
-import { PiFlagPennantFill, PiSword } from 'react-icons/pi';
-import { RiMap2Fill } from 'react-icons/ri';
-import { SiApplearcade } from 'react-icons/si';
-import { MdCastle } from 'react-icons/md';
+
 import styles from '../../styles/Gaming.module.css';
 import GamingData from '../../public/data/gaming';
 import SmallGameCard from '../components/small-game-card';
