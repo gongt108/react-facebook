@@ -1,0 +1,145 @@
+.videosContainer {
+	display: flex;
+}
+
+.videoBodyContainer {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(230, 229, 229);
+	min-height: 100vh;
+	width: 100%;
+}
+
+.newVideosForYouSection {
+	background-color: white;
+	border-radius: 15px;
+	/* width: 100%; */
+	margin: 1rem 5rem;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.newVideosForYou {
+	display: flex;
+	align-items: center;
+	margin-right: 2rem;
+}
+
+.newVideosForYouDetails {
+	display: flex;
+	flex-direction: column;
+	margin-left: 0.5rem;
+}
+.newVideos {
+	display: flex;
+}
+
+.newVideosForYouDetails p {
+	padding: 0;
+	margin: 0;
+}
+
+.timePosted {
+	color: blue;
+	font-size: 12px;
+	padding-left: 0.5rem;
+}
+
+.currentVideo {
+	background-color: white;
+	border-radius: 15px;
+	margin: 1rem 5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.videoDetails {
+	display: flex;
+	flex-direction: column;
+}
+
+.videoDetailsTop {
+	display: flex;
+	padding: 1rem;
+	padding-bottom: 0;
+}
+.videoDetailsBottom {
+	padding: 0 1rem;
+}
+
+.videoDetailsBottom h4,
+.videoDetailsBottom p {
+	margin: 0;
+}
+
+.userDetails {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1rem;
+	vertical-align: top;
+}
+
+.userDetails h5 {
+	margin: 0;
+	padding: 0;
+}
+
+.postDate {
+	display: flex;
+}
+
+.postDate p {
+	padding: 0;
+	margin: 0 1rem 0 0;
+	color: slategrey;
+}
+
+.video {
+	background-color: black;
+	width: 100%;
+	height: 350px;
+}
+
+.userInteractions {
+	display: flex;
+	margin: 1rem;
+	justify-content: space-between;
+}
+
+.userInteractions p {
+	margin: 0;
+	padding: 0;
+}
+
+.reactionButtonSection {
+	display: flex;
+}
+
+.reactionButton {
+	display: flex;
+	margin-right: 1rem;
+}
+
+.reactionButton p {
+	margin-left: 1rem;
+}
+
+.reactionStats {
+	display: flex;
+	color: gray;
+}
+.emojiTop {
+	margin-right: -0.25rem;
+	z-index: 1;
+	color: rgb(255, 214, 6);
+	background-color: black;
+	border-radius: 50%;
+}
+
+.emojiBottom {
+	margin-right: 0.5rem;
+	background-color: blue;
+	padding: 2.5px;
+	border-radius: 50%;
+}
